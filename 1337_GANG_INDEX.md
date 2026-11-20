@@ -1,6 +1,6 @@
 # 1337 GANG / THE ARSENAL
 
-![1337 Gang — Open-Source Arsenal](assets/1337-gang-storefront.svg)
+![1337 Gang — Builder's Arsenal](assets/1337-gang-storefront.svg)
 
 <p align="center"><strong>We ship inspectable tools, publish the source, and show the receipts.</strong><br>
 Build it. Break it. Fix it. Ship it.</p>
