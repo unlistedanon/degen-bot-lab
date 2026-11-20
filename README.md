@@ -1,15 +1,24 @@
-# Degen Bot Lab
-
 ![1337 Gang — Open-Source Arsenal](assets/1337-gang-storefront.svg)
 
-<p align="center"><strong>1337 GANG // OPEN-SOURCE ARSENAL</strong><br/>Build it. Break it. Fix it. Ship it.</p>
+# Degen Bot Lab
 
-<p align="center"><a href="1337_GANG_INDEX.md">Explore the arsenal</a> · <a href="1337_GANG_RELEASE.md">Run Degen Bot Lab</a> · <a href="RELEASE_SECURITY_GATE.md">Release security</a></p>
+**Record · Replay · Analyze** market observations with inspectable, reproducible Python research tools.
+
+<p align="center">
+<strong>1337 GANG // OPEN-SOURCE ARSENAL</strong><br>
+Build it. Break it. Fix it. Ship it.
+</p>
+
+<p align="center">
+<a href="1337_GANG_RELEASE.md"><strong>Get started</strong></a> ·
+<a href="docs/GETTING_STARTED.md">Documentation</a> ·
+<a href="1337_GANG_INDEX.md">Explore the arsenal</a> ·
+<a href="RELEASE_SECURITY_GATE.md">Release security</a>
+</p>
+
+> **Free / MIT-licensed on this public release branch.** Local research workflows, not a trading bot. No wallet execution or verified trading returns.
 
 ---
-
-> **1337 GANG OPEN SOURCE:** Free MIT-licensed research toolkit. [Release overview and honest capability limits](1337_GANG_RELEASE.md) · [All 1337 Gang release candidates](1337_GANG_INDEX.md). This branch publishes the toolkit, not a live trading bot.
-
 
 Open-source infrastructure for recording, replaying, analyzing, and comparing
 degen trading strategies without confusing simulation with reality.
