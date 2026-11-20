@@ -1,31 +1,67 @@
-# 1337 Gang — open-source release board
+# 1337 GANG / THE ARSENAL
 
-**Build it. Test it. Give it away. State the limits.**
+![1337 Gang — Open-Source Arsenal](assets/1337-gang-storefront.svg)
 
-First release batch, November 19, 2026. This board is intentionally published inside the [Degen Bot Lab](https://github.com/unlistedanon/degen-bot-lab) release branch until a dedicated public organization/catalog repository is created. No private continuity material or credentials belong here.
+<p align="center"><strong>We ship inspectable tools, publish the source, and show the receipts.</strong><br>
+Build it. Break it. Fix it. Ship it.</p>
 
-## Free-to-reuse tools
+<p align="center">
+<a href="#start-here">Start here</a> ·
+<a href="#the-free-toolkit">Free toolkit</a> ·
+<a href="#other-public-work">Other work</a> ·
+<a href="#release-standards">Release standards</a>
+</p>
 
-| Tool | Release | License | Purpose | Reality check |
-|---|---|---|---|---|
-| [Degen Bot Lab](https://github.com/unlistedanon/degen-bot-lab/tree/release/1337-gang-2026-11-19) | v0.1.0 / 1337 Gang release branch | MIT | Public feed capture, reproducible research replay, offline analysis/comparison | No wallet integration, execution, or verified profit |
-| [ProofLayer](https://github.com/unlistedanon/Prooflayer/tree/release/1337-gang-2026-11-19) | v0.1.0 / 1337 Gang release branch | MIT **on release branch** | Tamper-evident AI-agent receipt record and chain inspection | Checks internal consistency, **does not independently prove actions or secure a public API** |
+---
 
-Each tool provides commands, source, tests, limitations, and a pull request into its existing repository's main branch. Public branches can be used immediately; merging remains a separate approval step.
+## Start here
 
-## Public source that is *not* automatically a free utility release
+**Two developer tools have public, MIT-licensed release branches.** They are available to inspect and run today. Their proposed merges to `main` are still under review. Neither is a token investment, profit claim, or security certification.
 
-- [Jeet Analyzer Colosseum](https://github.com/unlistedanon/jeet-analyzer-colosseum): publicly viewable **evaluation-only/proprietary** snapshot, not MIT or production-served code. Do not redistribute as a free licensed tool.
-- [JOSH Prize Vault public audit](https://github.com/unlistedanon/josh-prize-vault-public-audit): a public review source and validation artifact, not a deployed contract or independent third-party audit; its economics and deployment authority are project-specific.
-- [Consciousness Research](https://github.com/unlistedanon/Consciousness-Research): philosophical research drafts, not peer-reviewed findings or software.
-- [ForgeFish](https://github.com/unlistedanon): v0.2 local source package exists as a candidate; standalone public repository and on-user-machine validation are pending. No repo or successful remote-use claim yet.
+| Want to… | Start with | |
+| :-- | :-- | :-- |
+| Replay market observations without placing trades | **Degen Bot Lab** | [Setup →](1337_GANG_RELEASE.md) |
+| Record and inspect the integrity of AI-agent activity claims | **ProofLayer** | [Setup →](https://github.com/unlistedanon/Prooflayer/blob/release/1337-gang-2026-11-19/1337_GANG_RELEASE.md) |
+
+## The free toolkit
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>01 / Degen Bot Lab</h3>
+<p><strong>Record · Replay · Analyze</strong></p>
+<p>Reproducible Python research workflows for public market observations and simulated strategy decisions.</p>
+<p>✅ Public release branch · MIT · automated tests</p>
+<p><a href="1337_GANG_RELEASE.md"><strong>Run the tool →</strong></a> · <a href="docs/GETTING_STARTED.md">Documentation</a> · <a href="https://github.com/unlistedanon/degen-bot-lab/pull/2">Release PR</a></p>
+<p><small>Research only. No live trading, wallet execution, or verified return claims.</small></p>
+</td>
+<td width="50%" valign="top">
+<h3>02 / ProofLayer</h3>
+<p><strong>Record · Inspect · Verify</strong></p>
+<p>SHA-256 receipts and linked activity history for applications that need to inspect what an AI agent <em>reported</em> doing.</p>
+<p>✅ Public release branch · MIT on that branch · automated CI</p>
+<p><a href="https://github.com/unlistedanon/Prooflayer/tree/release/1337-gang-2026-11-19"><strong>Explore the code →</strong></a> · <a href="https://github.com/unlistedanon/Prooflayer/blob/release/1337-gang-2026-11-19/1337_GANG_RELEASE.md">Run locally</a> · <a href="https://github.com/unlistedanon/Prooflayer/pull/3">Release PR</a></p>
+<p><small>Hash integrity does not prove underlying actions. Public write APIs require security hardening.</small></p>
+</td>
+</tr>
+</table>
+
+## Other public work
+
+| Project | What it demonstrates | Public availability |
+| :-- | :-- | :-- |
+| [Jeet Analyzer Colosseum](https://github.com/unlistedanon/jeet-analyzer-colosseum) | Solana wallet-flow investigation and evidence-based exit classification | **Evaluation-only/proprietary** public source; not an MIT reusable toolkit |
+| [JOSH Prize Vault public audit](https://github.com/unlistedanon/josh-prize-vault-public-audit) | Prize-vault contracts and transparent review artifacts | Public audit snapshot, **not** an independent security audit |
+| [Consciousness Research](https://github.com/unlistedanon/Consciousness-Research) | Exploratory research and hypotheses | Research drafts; no scientific proof claim |
+| **ForgeFish** | Local browser automation experiments | Private/local release candidate; **no public installable repo yet** |
 
 ## Release standards
 
-1. Run or inspect actual tests for the exact candidate; report the commit and what was tested. A green CI is not live deployment proof.
-2. Separate simulations from trades, stored statements from independent evidence, and source availability from public reuse rights.
-3. Publish only independently authored material we have the right to license, with a clear LICENSE and third-party notices where needed.
-4. Never publish .env, access tokens, private keys, wallet recovery material, browser session profiles, customer data, client-owned projects, or private continuity.
-5. Prefer minimal, reproducible utility over a feature list the tool cannot deliver.
+- **Reality over screenshots.** A green CI check means automated checks passed on that commit, not that a system is live, profitable, secure against all attacks, or externally validated.
+- **Licenses are project-specific.** Publicly readable code is not necessarily open-source code. Check the exact branch and license before reusing anything.
+- **Keep the dangerous bits private.** Never publish keys, seed phrases, cookies, session storage, customer/client assets, private recordings, or credentials. See [release security gates](RELEASE_SECURITY_GATE.md).
+- **Make feedback useful.** File issues with the exact command, expected behavior, and observed behavior. Small reproducible pull requests are welcome.
 
-**We're not claiming every build is finished. We're giving developers tools they can run, break, and improve.**
+---
+
+<p align="center"><strong>1337 GANG</strong> · Free to explore. Designed to be tested. Built to improve.</p>
