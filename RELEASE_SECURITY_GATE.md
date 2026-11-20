@@ -17,7 +17,7 @@ Public release means permanent exposure. A green test suite is not security appr
 
 From a full clone, run these commands with Docker installed:
 
-    docker run --rm -v "$PWD:/repo:ro" -w /repo ghcr.io/gitleaks/gitleaks@sha256:c00b6bd0aeb3071cbcb79009cb16a60dd9e0a7c60e2be9ab65d25e6bc8abbb7f git --source /repo --redact --log-opts="--all"
-    docker run --rm -v "$PWD:/repo:ro" -w /repo ghcr.io/gitleaks/gitleaks@sha256:c00b6bd0aeb3071cbcb79009cb16a60dd9e0a7c60e2be9ab65d25e6bc8abbb7f dir --source /repo --redact
+    docker run --rm -v "$PWD:/repo:ro" -w /repo ghcr.io/gitleaks/gitleaks@sha256:c00b6bd0aeb3071cbcb79009cb16a60dd9e0a7c60e2be9ab65d25e6bc8abbb7f git --redact --log-opts="--all" /repo
+    docker run --rm -v "$PWD:/repo:ro" -w /repo ghcr.io/gitleaks/gitleaks@sha256:c00b6bd0aeb3071cbcb79009cb16a60dd9e0a7c60e2be9ab65d25e6bc8abbb7f dir --redact /repo
 
 Keep secret findings out of issue bodies, build logs, and public artifacts. No scanner guarantees zero risk.
