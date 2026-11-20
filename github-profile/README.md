@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/unlistedanon/degen-bot-lab/tree/release/1337-gang-2026-11-19">
-    <img src="https://raw.githubusercontent.com/unlistedanon/degen-bot-lab/release/1337-gang-2026-11-19/assets/1337-gang-storefront.svg" width="100%" alt="1337 Gang — Open-Source Arsenal: Degen Bot Lab, ProofLayer, ForgeFish, and Jeet Analyzer">
+    <img src="https://raw.githubusercontent.com/unlistedanon/degen-bot-lab/release/1337-gang-2026-11-19/assets/1337-gang-storefront.svg" width="100%" alt="1337 Gang builders arsenal: open-source releases and additional research projects">
   </a>
 </p>
 
