@@ -1,4 +1,4 @@
-![1337 Gang — Open-Source Arsenal](assets/1337-gang-storefront.svg)
+![1337 Gang — Builder's Arsenal](assets/1337-gang-storefront.svg)
 
 # Degen Bot Lab
 
