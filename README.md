@@ -1,6 +1,6 @@
 # Degen Bot Lab
 
-> **1337 GANG OPEN SOURCE:** Free MIT-licensed research toolkit. [Release overview and honest capability limits](1337_GANG_RELEASE.md). This branch publishes the toolkit, not a live trading bot.
+> **1337 GANG OPEN SOURCE:** Free MIT-licensed research toolkit. [Release overview and honest capability limits](1337_GANG_RELEASE.md) · [All 1337 Gang release candidates](1337_GANG_INDEX.md). This branch publishes the toolkit, not a live trading bot.
 
 
 Open-source infrastructure for recording, replaying, analyzing, and comparing
