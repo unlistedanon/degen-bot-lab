@@ -1,4 +1,24 @@
+![1337 Gang — Builder's Arsenal](assets/1337-gang-storefront.svg)
+
 # Degen Bot Lab
+
+**Record · Replay · Analyze** market observations with inspectable, reproducible Python research tools.
+
+<p align="center">
+<strong>1337 GANG // OPEN-SOURCE ARSENAL</strong><br>
+Build it. Break it. Fix it. Ship it.
+</p>
+
+<p align="center">
+<a href="1337_GANG_RELEASE.md"><strong>Get started</strong></a> ·
+<a href="docs/GETTING_STARTED.md">Documentation</a> ·
+<a href="1337_GANG_INDEX.md">Explore the arsenal</a> ·
+<a href="RELEASE_SECURITY_GATE.md">Release security</a>
+</p>
+
+> **Free / MIT-licensed on this public release branch.** Local research workflows, not a trading bot. No wallet execution or verified trading returns.
+
+---
 
 Open-source infrastructure for recording, replaying, analyzing, and comparing
 degen trading strategies without confusing simulation with reality.
@@ -87,6 +107,27 @@ py -m degenbotlab compare --baseline "%LOCALAPPDATA%\DegenBotLab\reports\baselin
 
 Outputs are exclusive by default. Existing files are never overwritten unless
 the operator explicitly adds `--overwrite`.
+
+## Linux and macOS (bash)
+
+```bash
+git clone https://github.com/unlistedanon/degen-bot-lab.git
+cd degen-bot-lab
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+export BOT_LIVE=0
+python -m unittest discover -s tests -p 'test_*.py' -v
+export BOT_RESEARCH_ENABLE=1
+mkdir -p recordings reports
+python -m degenbotlab record --output recordings/movers-session.jsonl --duration-seconds 900 --max-snapshots 450 --max-log-mb 64
+python -m degenbotlab replay --input recordings/movers-session.jsonl --output recordings/movers-replay.jsonl --max-log-mb 64
+python -m degenbotlab analyze --input recordings/movers-session.jsonl --output reports/movers-session.report.json
+# After creating two compatible reports:
+python -m degenbotlab compare --baseline reports/baseline.report.json --candidate reports/candidate.report.json --output reports/comparison.json
+```
+
+Recording accesses the public feed. Replay, analysis and comparison stay offline.
 
 ## Documentation
 

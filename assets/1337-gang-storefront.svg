@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="560" viewBox="0 0 1440 560" role="img" aria-label="1337 Gang builders arsenal: two open-source releases, one local candidate and one evaluation-only snapshot">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070b17"/><stop offset=".55" stop-color="#10142b"/><stop offset="1" stop-color="#090a16"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#49e8ff"/><stop offset=".48" stop-color="#9d6aff"/><stop offset="1" stop-color="#f64db7"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1a2340"/><stop offset="1" stop-color="#111629"/></linearGradient>
+<pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M 38 0 L 0 0 0 38" fill="none" stroke="#2b3454" stroke-width="1" opacity=".55"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="24"/></filter>
+</defs>
+<rect width="1440" height="560" fill="url(#bg)"/>
+<rect width="1440" height="560" fill="url(#grid)" opacity=".6"/>
+<ellipse cx="1050" cy="100" rx="280" ry="100" fill="#7047e9" opacity=".18" filter="url(#glow)"/>
+<ellipse cx="170" cy="390" rx="260" ry="110" fill="#05c7e9" opacity=".11" filter="url(#glow)"/>
+<path d="M60 42H1380" stroke="url(#accent)" stroke-width="3"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="74" y="117" fill="#69e9ff" font-size="19" font-weight="700" letter-spacing="6">SOFTWARE // BUILT IN THE WILD</text>
+<text x="68" y="235" fill="#ffffff" font-size="106" font-weight="900" letter-spacing="-5">1337 GANG</text>
+<rect x="72" y="258" width="420" height="5" rx="2" fill="url(#accent)"/>
+<text x="74" y="308" fill="#cbd6f3" font-size="29" font-weight="600">THE BUILDERS' ARSENAL</text>
+<text x="75" y="354" fill="#9daaca" font-size="22">Build it. Break it. Fix it. Ship it.</text>
+<text x="75" y="488" fill="#74f4d6" font-size="17" letter-spacing="2">SOURCE FIRST  /  REAL TESTS  /  HONEST LIMITS</text>
+<g>
+<rect x="630" y="110" width="350" height="140" rx="18" fill="url(#panel)" stroke="#44dff5" stroke-opacity=".65" stroke-width="2"/>
+<rect x="1000" y="110" width="350" height="140" rx="18" fill="url(#panel)" stroke="#a16aff" stroke-opacity=".65" stroke-width="2"/>
+<rect x="630" y="270" width="350" height="140" rx="18" fill="url(#panel)" stroke="#f05ebf" stroke-opacity=".65" stroke-width="2"/>
+<rect x="1000" y="270" width="350" height="140" rx="18" fill="url(#panel)" stroke="#65c8ff" stroke-opacity=".65" stroke-width="2"/>
+<text x="653" y="153" fill="#64edff" font-size="14" font-weight="700" letter-spacing="3">01 / RESEARCH</text>
+<text x="653" y="196" fill="#fff" font-size="29" font-weight="800">Degen Bot Lab</text>
+<text x="653" y="225" fill="#aebdd8" font-size="17">Record • Replay • Analyze</text>
+<text x="1023" y="153" fill="#bd96ff" font-size="14" font-weight="700" letter-spacing="3">02 / RECEIPTS</text>
+<text x="1023" y="196" fill="#fff" font-size="29" font-weight="800">ProofLayer</text>
+<text x="1023" y="225" fill="#aebdd8" font-size="17">Agent activity receipts</text>
+<text x="653" y="313" fill="#ff85d0" font-size="14" font-weight="700" letter-spacing="3">03 / LOCAL AGENT</text>
+<text x="653" y="356" fill="#fff" font-size="29" font-weight="800">ForgeFish</text>
+<text x="653" y="385" fill="#aebdd8" font-size="17">Local candidate • Not public</text>
+<text x="1023" y="313" fill="#7ddaff" font-size="14" font-weight="700" letter-spacing="3">04 / FORENSICS</text>
+<text x="1023" y="356" fill="#fff" font-size="29" font-weight="800">Jeet Analyzer</text>
+<text x="1023" y="385" fill="#aebdd8" font-size="17">Evaluation-only source</text>
+</g>
+<path d="M72 518H1367" stroke="#33425f"/>
+<text x="75" y="542" fill="#7d8dad" font-size="14" letter-spacing="2">1337 GANG   •   PUBLIC & PRIVATE WORK   •   RIGHTS VARY BY PROJECT</text>
+</g>
+</svg>
